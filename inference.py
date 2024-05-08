@@ -1,5 +1,5 @@
 # Inference code with support for GPU and CPU
-# Use the weights given in the weights directory
+# Download and place the weights given in the weights directory
 # Uses TensorRT weights if GPU is present, else uses ONNX for CPU speedup
 # Default model set to ONNX
 

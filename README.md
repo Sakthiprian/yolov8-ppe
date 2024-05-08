@@ -22,6 +22,10 @@ This repository contains a YOLOv8-based model for detecting personal protective 
 
 If your annotations are in Pascal VOC format and you need them in YOLO format, you can use the provided script:
 
+```
+python pascaltoVOC_to_YOLO.py "path_to_input_folder" "path_to_output_folder"
+```
+
 
 ### 2. Split Dataset (Optional)
 
@@ -51,6 +55,11 @@ To perform inference using the trained model:
     ```
 
 Place the images in the `test_inputs` folder. Results will be available at `test_outputs` by default.
+
+- If using custom settings, run:
+    ```
+    python inference.py -i "path_to_input_directory" -o "path_to_outputs_directory" --person_model "path_to_person_detection_model" --ppe_model "path_to_ppe_detection_model"
+    ```
 
 ## License
 

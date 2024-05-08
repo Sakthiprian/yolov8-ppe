@@ -1,0 +1,7 @@
+path: "/content/drive/MyDrive/yolov8/data_person"
+train: "/content/drive/MyDrive/yolov8/data_person/train"
+val: "/content/drive/MyDrive/yolov8/data_person/val"
+
+#classes
+names:
+  0: person

@@ -4,11 +4,7 @@ This repository contains a YOLOv8-based model for detecting personal protective 
 
 ## Installation
 
-1. Clone the GitHub repository:
-
-    ```
-    git clone <repository_url>
-    ```
+1. Clone the GitHub repository.
 
 2. Install required dependencies:
 

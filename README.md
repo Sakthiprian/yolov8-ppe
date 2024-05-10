@@ -25,7 +25,7 @@ python pascaltoVOC_to_YOLO.py "path_to_input_folder" "path_to_output_folder"
 
 ### 2. Split Dataset (Optional)
 
-To split your dataset into training and validation sets:
+To split your dataset into training and validation sets, use the train_validation_split.py file
 
 
 ### 3. Train Model on Custom Dataset (Optional)
